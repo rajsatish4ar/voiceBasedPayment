@@ -1,5 +1,4 @@
-Welcome file
-Welcome file
+
 #  Voice Based Payments Hackathon
 
 ###### Hosted By
