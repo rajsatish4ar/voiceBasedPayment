@@ -1,14 +1,22 @@
 import React, {useEffect} from 'react';
-import {View, StyleSheet, Text, StatusBar} from 'react-native';
+import {
+  View,
+  StyleSheet,
+  Text,
+  StatusBar,
+  TouchableOpacity,
+} from 'react-native';
 import LottieView from 'lottie-react-native';
 const Splash = props => {
   useEffect(() => {
-    setTimeout(() => {
-      props.navigation.navigate('App');
-    }, 3000);
+    // setTimeout(() => {
+    //   props.navigation.navigate('App');
+    // }, 3000);
   }, []);
   return (
-    <View style={styles.container}>
+    <TouchableOpacity
+      style={styles.container}
+      onPress={() => props.navigation.navigate('App')}>
       <StatusBar barStyle="light-content" backgroundColor="#2EC0BE" />
       <Text style={styles.heading}>{`Reactor`}</Text>
       <Text
@@ -21,7 +29,7 @@ const Splash = props => {
         loop
         style={styles.loader}
       />
-    </View>
+    </TouchableOpacity>
   );
 };
 export default Splash;

@@ -15,10 +15,11 @@
     "react-native": "0.61.5",
     "react-native-credit-card": "^0.1.9",
     "react-native-dialogflow": "^3.2.2",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-razorpay": "^2.1.31",
     "react-native-tts": "^3.0.0",
     "react-native-voice": "^0.3.0",
-    "react-navigation": "3.11.0",
-    "react-native-gesture-handler": "^1.4.1"
+    "react-navigation": "3.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
